@@ -1,0 +1,20 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  background-color: #C1C8E4;
+  font-size: 20px;
+  text-align: center;
+}
+
+.link{
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.header{
+  font-size: 30px;
+}
