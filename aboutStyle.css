@@ -4,17 +4,49 @@ a{
 }
 
 body{
-  background-color: #C1C8E4;
+  background-color: #5AB9EA;
   font-size: 20px;
   text-align: center;
+  /*color: #8860D0;*/
+}
+
+.about{
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.about-wrapper{
+  display: flex;
+  justify-content: center;
 }
 
 .link{
   display: inline-block;
-  margin: 5px;
+  margin: 10px;
   padding: 5px;
+  text-decoration-color: #8860D0;
+}
+
+.link:hover {
+  transform: scale(1.5);
+
 }
 
 .header{
   font-size: 30px;
+}
+
+#me{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.picture{
+  text-align: center;
+
 }
