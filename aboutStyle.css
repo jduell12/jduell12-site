@@ -4,10 +4,22 @@ a{
 }
 
 body{
-  background-color: #5AB9EA;
-  font-size: 20px;
-  text-align: center;
-  /*color: #8860D0;*/
+  margin: 0;
+  padding:0;
+  display: block;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, rgba(225,225,255,.5) 8px, rgba(255,255,255,.5) 10px);
+}
+
+#github, #linkedin{
+  width:30px;
+  height:30px;
+  margin: 10px;
+}
+
+#me{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .about{
@@ -24,6 +36,34 @@ body{
   justify-content: center;
 }
 
+.body-wrapper{
+  position: relative;
+  margin: 0 auto;
+  width: 65%;
+  height: 1750px;
+  display: block;
+  background-color: #5AB9EA;
+  box-shadow: 0px 0px 15px #BDBDBD;
+}
+
+.center{
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: inherit;
+  margin: 0 auto;
+  background-color: #5AB9EA;
+  position: fixed;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: flex-start;
+}
+
 .link{
   display: inline-block;
   margin: 10px;
@@ -38,12 +78,6 @@ body{
 
 .header{
   font-size: 30px;
-}
-
-#me{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
 }
 
 .picture{
