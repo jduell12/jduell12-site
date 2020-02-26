@@ -15,6 +15,12 @@ p{
   padding: 10px;
 }
 
+button{
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
 #github, #linkedin{
   width:30px;
   height:30px;
@@ -91,7 +97,7 @@ p{
   text-align: center;
 }
 
-.picture{
-  text-align: center;
-
+.space{
+  padding: 10px;
+  margin: 10px;
 }
