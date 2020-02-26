@@ -11,7 +11,7 @@ body{
 }
 
 p{
-  text-align: justify;
+  text-align: center;
   padding: 10px;
 }
 
@@ -19,6 +19,12 @@ button{
   font-size: 20px;
   padding: 5px;
   margin: 5px;
+}
+
+#download:hover, #open:hover{
+  background-color: black;
+  color: orange;
+  transform: scale(1.25);
 }
 
 #github, #linkedin{
