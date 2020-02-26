@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Contact Jessica</title>
     <link rel="stylesheet" href="contactStyle.css">
-    <script src="script.js">    </script>
+    <script src="contactScript.js">    </script>
   </head>
   <body>
     <div class="body-wrapper">
@@ -29,7 +29,20 @@
             <img src="./img/contact.png" alt="contact">  <a href="contact.html">Contact Me</a>
           </div>
         </div>
-
+        <p>If you are interested in reaching out to me please fill out and submit the form below.</p>
+        <div class="form">
+          <form id = "contactForm" action = "http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+            Name: <br>
+            <input type="text" name="firstName"  value="First Name"><br>
+            <input type="text" name="lastName" value="Last Name"><br>
+            Email: <br>
+            <input type="text" name="email" value="Email Address"><br>
+          </form>
+          <br>
+          Questions or Comments: <br>
+          <textarea name="comment" form = "contactForm" rows="8" cols="80"></textarea><br>
+          <input type="submit" id="submit" value="Submit">
+        </div>
           <div class="footer">
             <a target="_blank" href="https://github.com/jduell12"> <img id = "github" src="./img/github32.png" alt="Github logo"></a>
             <a target="_blank" href="https://www.linkedin.com/in/jessicaduell/"><img id = "linkedin" src="./img/linkedin.png" alt="Linkedin logo"></a>
