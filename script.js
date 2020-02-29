@@ -40,7 +40,7 @@ function showSlides(n){
 
 function changePic(){
   slideIndex++;
-  if(slideIndex >= slides.length){
+  if(slideIndex > slides.length){
     slideIndex = 1;
   }
   if (slideIndex < 1){
