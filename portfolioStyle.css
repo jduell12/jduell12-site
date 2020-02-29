@@ -25,26 +25,6 @@ p{
   transform: scale(1.5);
 }
 
-#me{
-  width: 30%;
-  height: 30%;
-  border-radius: 50%;
-}
-
-.about{
-    width: 500px;
-    height: 300px;
-    overflow: auto;
-    margin: 20px;
-    padding: 20px;
-
-}
-
-.about-wrapper{
-  display: flex;
-  justify-content: center;
-}
-
 .body-wrapper{
   position: inherit;
   margin: auto;
@@ -89,9 +69,4 @@ p{
 .header{
   font-size:100%;
   text-align: center;
-}
-
-.picture{
-  text-align: center;
-
 }
