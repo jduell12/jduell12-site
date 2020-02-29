@@ -74,6 +74,10 @@ body{
   height: 30%;
 }
 
+.one{
+  display: block;
+}
+
 .slideShowImg{
   width: 300px;
   height: 300px;
