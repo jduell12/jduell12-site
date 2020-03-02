@@ -46,6 +46,10 @@ body{
   padding: 20px;
 }
 
+.cite{
+  font-size: 12px;
+}
+
 .footer{
   display: flex;
   justify-content: flex-start;
