@@ -37,7 +37,7 @@
             <img src="./img/resume.png" alt="resume">  <a href="resume.html">Resume</a>
           </div>
           <div class="link">
-            <img src="./img/contact.png" alt="contact">  <a href="contact.html">Contact Me</a>
+            <img src="./img/contact.png" alt="contact">  <a href="contact.php">Contact Me</a>
           </div>
         </div>
         <p>If you are interested in reaching out to me please fill out and submit the form below.</p>
