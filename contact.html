@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -13,22 +14,24 @@
         </div>
         <div class="links">
           <div class="link">
-            <img src="./img/home.png" alt="home"><a href="index.html">Home</a>
+            <img src="/img/home.png" alt="home"><a href="index.html">Home</a>
           </div>
           <div class="link">
-            <img src="./img/portfolio.png" alt="portfolio"> <a href="portfolio.html">Portfolio</a>
+            <img src="/img/portfolio.png" alt="portfolio"> <a href="portfolio.html">Portfolio</a>
           </div>
           <div class="link">
-            <img src="./img/resume.png" alt="resume">  <a href="resume.html">Resume</a>
+            <img src="/img/resume.png" alt="resume">  <a href="resume.html">Resume</a>
           </div>
           <div class="link">
-            <img src="./img/contact.png" alt="contact">  <a href="contact.html">Contact Me</a>
+            <img src="/img/contact.png" alt="contact">  <a href="contact.html">Contact Me</a>
           </div>
         </div>
         <p>If you are interested in reaching out to me please fill out and submit the form below.</p>
         <div class="form">
-          <form id="contactForm" action = "contact.php" method="post">
-            <label for="firstName">First Name:</label><br>
+          <form id="contactForm" action = "formmail.php" method="post">
+            <input type="hidden" name="recipients" value="duellrdh@gmail.com" />
+            <input type="hidden" name="good_url" value="/contactSubmit.html" />
+            <label for="realname">First Name:</label><br>
             <input type="text" class="type" name="firstName"><br>
             <label for="lastName">Last Name:</label> <br>
             <input type="text" class="type" name="lastName"><br>
@@ -44,8 +47,8 @@
 
         </div>
           <div class="footer">
-            <a target="_blank" href="https://github.com/jduell12"> <img id = "github" src="./img/github32.png" alt="Github logo"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/jessicaduell/"><img id = "linkedin" src="./img/linkedin.png" alt="Linkedin logo"></a>
+            <a target="_blank" href="https://github.com/jduell12"> <img id = "github" src="/imgs/github32.png" alt="Github logo"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/jessicaduell/"><img id = "linkedin" src="/imgs/linkedin.png" alt="Linkedin logo"></a>
           </div>
       </div>
     </div>
